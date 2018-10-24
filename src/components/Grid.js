@@ -18,7 +18,7 @@ const Grid = styled('div')`
         (t) =>
           config(gridProps).container[t] &&
           config(gridProps).media[t]`
-        width: ${(props) => config(props).container[t]}rem;
+        width: ${(props) => config(gridProps).container[t]}rem;
       `
       )};
     `;
